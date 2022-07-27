@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .brand {
+    width: 100%;
+  }
+
+  nav.navbar ul {
+    display: none;
+  }
+
+  nav.navbar.navbar-open ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav.navbar.navbar-open ul li {
+    padding: 6px 0px;
+  }
+}

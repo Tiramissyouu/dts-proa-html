@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0px auto;
+}
+
+header {
+  padding: 24px;
+  font-family: "Open Sans";
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+header .brand {
+  font-weight: bold;
+  font-size: 32px;
+  margin-right: 24px;
+}
+
+.menu-icon {
+  display: none;
+  float: right;
+  cursor: pointer;
+}
+
+nav.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav ul li {
+  font-size: 16px;
+  padding: 0px 12px;
+}
+
+li.nav-item a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+}
+
+li.nav-item a:hover {
+  transition: color 0.5s;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+li.nav-item a.active {
+  color: rgba(0, 0, 0, 0.9);
+}
